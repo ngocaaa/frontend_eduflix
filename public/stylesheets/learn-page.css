@@ -1,0 +1,147 @@
+.no-color {
+  color: transparent;
+  background-color: transparent;
+}
+
+.box-learn-page {
+  margin-top: 50px;
+  margin-bottom: 140px;
+}
+
+.video-player-box {
+  padding-top: 100px;
+  padding-left: 150px;
+}
+
+.sub-box-inner {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+.sub-box-inner h5 {
+  font-weight: 600;
+}
+
+.sub-box .col-md-5 {
+  text-align: justify;
+  width: 500px;
+}
+
+.sub-box {
+  background-color: #fdc029;
+  /* background: url("/images/learnBG.jpeg") no-repeat center center; */
+  margin-left: 80px;
+  height: 392px;
+  width: 400px;
+  color: #2f2822;
+  /* filter: brightness(0.8); */
+}
+
+.box-learn-page h2{
+  color: goldenrod;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
+
+.box-learn-page h4 {
+  margin-top: 20px;
+  word-spacing: 3px;
+}
+
+/* Slider for YOU MAY LIKE */
+
+.may-like-box {
+  background-color: #f5f5f5;
+  padding-top: 30px;
+  padding-bottom: 200px;
+  height: 1000px;
+}
+
+.title-box {
+  margin-bottom: 320px;
+  margin-left: 200px;
+}
+
+.title-box h5 {
+  color: goldenrod;
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+.title-box hr {
+  border-color: #cfaa79;
+  width: 1040px;
+  /* margin-left: 10px; */
+  margin-right: 250px;
+  margin-bottom: 20px;
+}
+
+.carousel-thumb-box {
+  margin-top: 290px;
+}
+
+.carousel-thumb-box-text h5 p{
+  font-size: 16px;
+}
+
+body .carousel-indicators li {
+  background-color: none;
+  display: inline-block;
+  width: 500px;
+}
+
+body .caro-control-decor {
+  color: #fdc029;
+}
+
+body .caro-control-decor:hover {
+  color: #f19827;
+}
+
+.carousel-thumb-img li:hover {
+  background-color: transparent;
+}
+
+.carousel-thumb-img li:active {
+  background-color: transparent;
+}
+
+.carousel-thumb-img img {
+  width: 300px;
+  height: 190px;
+  padding: 20px;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.carousel-thumb-img img:hover {
+  filter: brightness(0.5);
+}
+
+.carousel-slide-img img {
+  /* margin-top: 220px;  */
+  /* margin-bottom: 10px; */
+  width: 1000px;
+  height: 563px;
+  filter: brightness(0.8);
+}
+
+.play-icon-slide a {
+  color: #dfdfdf;
+}
+
+.play-icon-slide a:hover {
+  color: whitesmoke;
+}
+
+
+
+
+
+
+

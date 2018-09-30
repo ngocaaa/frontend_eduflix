@@ -1,0 +1,248 @@
+.play-icon-header a {
+    color: #dfdfdf;
+}
+
+.play-icon-header a:hover {
+    color: whitesmoke;
+}
+
+.top-view a {
+    color: grey;
+    font-size: 17px;
+}
+
+.top-view a:hover {
+    color: #ffc962;
+    text-decoration: none;
+}
+
+.eduflix-list a {
+    color: #ffc962;
+    font-size: 17px;
+    
+}
+
+.eduflix-list a:hover {
+    color: #ffc962;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.now-list-box a {
+    color: grey;
+    font-size: 17px;
+}
+
+.now-list-box a:hover {
+    color: #ffc962;
+    text-decoration: none;
+}
+
+.learn a {
+    color: #2f2822;
+    font-size: 17px;
+}
+
+.learn a:hover {
+    color: #2f2822;
+    font-size: 17px;
+}
+
+.top-view-box {
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-right: 130px;
+    padding-bottom: 120px;
+}
+
+.top-view {
+    background-color: #f5f5f5;
+    /* padding: 10px; */
+}
+
+.now-list-box {
+    margin-top: -28px;
+    margin-left: 200px;
+    margin-right: 250px;
+    margin-bottom: 39px;
+}
+
+/* .header-list {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image: url("/images/header-list1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+} */
+
+/* .header-list-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #171820;
+    opacity: 0.6;
+} */
+
+.header-text h2 {
+    color: whitesmoke;
+    margin-bottom: 20px;
+    text-align: left; 
+    font-weight: 600;
+    word-spacing: 3px;
+}
+
+.header-text {
+    color: whitesmoke;
+    text-align: left; 
+    position:absolute;
+    bottom:0px;
+    margin-left: 200px;
+}
+
+.top-view-box h2 {
+  color: #2f2822;
+  word-spacing: 3px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.top-view-box p {
+    color: grey;
+    font-size: 19px;
+  }
+
+.now-list-box h2 {
+    color: #2f2822;
+    word-spacing: 3px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+.media-body h5 {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: goldenrod;
+}
+
+.media-body p {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 130px;
+}
+
+.list-space {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.full-width-image {
+	background: url("/images/header-list2.jpg") no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	height: 100vh;
+}
+  
+.img-thumbnail {
+    background-color: #f5f5f5;
+    display: block;
+    width: 200px;
+    height: 250px;
+    border: 0;
+}
+ 
+.movie-text-box {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+.description {
+    margin-left: 20px;
+}
+
+/* .cover-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #060607;
+  } */
+  
+.eduflix-list {
+    background-image: linear-gradient(to right, #b92b27 , #1565C0);
+    height: 680px;
+}
+
+.eduflix-list img {
+    width: 220px;
+    height: 330px;
+    margin-top: 69px;
+}
+
+.eduflix-list h5{
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+    padding-right: 50px;
+}
+
+.eduflix-list p {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 15px;
+}
+
+.eduflix-list-box {
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+/* .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } */
+
+.line-decor-top-view {
+    border-color: #f19827; 
+    margin-right: 10px;
+    border-width: 5px;
+    width: 45px;
+    text-align: left;
+    display: inline-block;
+    transform: translate(0%, 260%);
+}
+
+.line-decor-now {
+    border-color: #fdc029; 
+    margin-right: 10px;
+    border-width: 5px;
+    width: 45px;
+    text-align: left;
+    display: inline-block;
+    transform: translate(0%, 260%);
+}

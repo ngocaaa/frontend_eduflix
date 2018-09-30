@@ -1,0 +1,201 @@
+<nav class="navbar navbar-expand-lg" style="background-color: #0e1111; height:60px">
+    <a class="navbar-brand" href="#">EduFlix</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Movies</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="box-learn-page">
+    <h2 class="text-center">ENTERTAIN AND LEARN</h2>
+    <h4 class="text-center">STREAM A VIDEO TO EDUCATE YOURSELF</h4>
+
+    <div class="video-player-box">
+        <div class="row">
+            {{!-- Video player div --}}
+            <div class="w-65">
+                <iframe width="700" height="394" src="https://www.youtube.com/embed/SkcucKDrbOI" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+            </div>
+            {{!-- Info and subtitle div --}}
+            <div class="sub-box">
+                <div class="sub-box-inner">
+                    <div class="w-35">
+                        <h5>Title: </h5>
+                        <br>
+                        <h5>Description: </h5>
+                        <br>
+                        <h5>Sub: </h5>
+                        <p id="subtitles" class="text-justify"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="may-like-box">
+    <div class="title-box">
+        <h5>You May Like</h5>
+        <hr>
+    </div>
+    <!--Carousel Wrapper-->
+    <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+        <!--Slides-->
+        <div class="carousel-slide-box center-text">
+            <div class="carousel-inner carousel-slide-img" role="listbox">
+                <div class="carousel-item active">
+                    <img class="d-block" src="https://cdn3.movieweb.com/i/article/9ft41auUlcqNC3bNVLb3bBlx5n4oiR/1200:100/How-To-Train-Your-Dragon-3-Hidden-World.jpg"
+                        alt="First slide">
+                    <div class="play-icon-slide middle-text">
+                        <a href="#">
+                            <i class="far fa-play-circle fa-4x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="https://nextshark-vxdsockgvw3ki.stackpathdns.com/wp-content/uploads/2017/12/Crazy-Rich-Asians-EW-Cover-Images.jpg"
+                        alt="Second slide">
+                    <div class="play-icon-header middle-text">
+                        <a href="#">
+                            <i class="far fa-play-circle fa-4x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="https://i.ytimg.com/vi/aHrB1tqyEeM/maxresdefault.jpg" alt="Third slide">
+                    <div class="play-icon-header middle-text">
+                        <a href="#">
+                            <i class="far fa-play-circle fa-4x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="https://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_1100/csydwa9b4jkp3xubegg1"
+                        alt="Third slide">
+                    <div class="play-icon-header middle-text">
+                        <a href="#">
+                            <i class="far fa-play-circle fa-4x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+            <span class="caro-control-decor">
+                <i class="fas fa-caret-left fa-8x"></i>
+            </span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+            <span class="caro-control-decor">
+                <i class="fas fa-caret-right fa-8x"></i>
+            </span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+        {{!--
+        <div class="carousel-thumb-box center-text">
+            <ol class="carousel-indicators carousel-thumb-img text-center">
+                <li style="background-color: transparent" data-target="#carousel-thumb" data-slide-to="0">
+                    <img class="d-block" src="https://cdn3.movieweb.com/i/article/9ft41auUlcqNC3bNVLb3bBlx5n4oiR/1200:100/How-To-Train-Your-Dragon-3-Hidden-World.jpg">
+                </li>
+                <li style="background-color: transparent" data-target="#carousel-thumb" data-slide-to="1">
+                    <img class="d-block" src="https://nextshark-vxdsockgvw3ki.stackpathdns.com/wp-content/uploads/2017/12/Crazy-Rich-Asians-EW-Cover-Images.jpg">
+                </li>
+                <li style="background-color: transparent" data-target="#carousel-thumb" data-slide-to="2">
+                    <img class="d-block" src="https://i.ytimg.com/vi/aHrB1tqyEeM/maxresdefault.jpg">
+                </li>
+                <li style="background-color: transparent" data-target="#carousel-thumb" data-slide-to="2">
+                    <img class="d-block" src="https://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_1100/csydwa9b4jkp3xubegg1">
+                </li>
+            </ol>
+        </div> --}} 
+
+            
+            <div class="carousel-thumb-box center-text">
+                <ol class="carousel-indicators carousel-thumb-img text-center">
+                    <li style="background-color: transparent" data-target="#carousel-thumb" data-slide-to="0">
+                        <img class="d-block" src="https://cdn3.movieweb.com/i/article/9ft41auUlcqNC3bNVLb3bBlx5n4oiR/1200:100/How-To-Train-Your-Dragon-3-Hidden-World.jpg">
+                    </li>
+                    <li style="background-color: transparent" data-target="#carousel-thumb" data-slide-to="1">
+                        <img class="d-block" src="https://nextshark-vxdsockgvw3ki.stackpathdns.com/wp-content/uploads/2017/12/Crazy-Rich-Asians-EW-Cover-Images.jpg">
+                    </li>
+                    <li style="background-color: transparent" data-target="#carousel-thumb" data-slide-to="2">
+                        <img class="d-block" src="https://i.ytimg.com/vi/aHrB1tqyEeM/maxresdefault.jpg">
+                    </li>
+                    <li style="background-color: transparent" data-target="#carousel-thumb" data-slide-to="2">
+                        <img class="d-block" src="https://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_1100/csydwa9b4jkp3xubegg1">
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <!--/.Carousel Wrapper-->
+    </div>
+
+
+    <footer>
+        <div class="container-fluid py-3">
+            <div class="footer-box">
+                <div class="row">
+                    <div class="col-md-4 footer-ele-box">
+                        <h4>EDUFLIX</h4>
+                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced
+                            in their exact original form, accompanied by English versions from the 1914 translation by H.
+                            Rackham.
+                        </p>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-3 footer-ele-box">
+                        <h4>SERVICES</h4>
+                        <a href="#">Movies</a>
+                        <br>
+                        <br>
+                        <a href="#">Series</a>
+                    </div>
+                    <div class="col-md-3 footer-ele-box">
+                        <h4>CONTACT US</h4>
+                        <p>
+                            <i class="fas fa-map-marker-alt sna"></i>221 Burwood Hwy, Burwood VIC 3125, Melbourne, Australia</p>
+                        <p>
+                            <i class="far fa-envelope"></i> eduflix@deakin.edu.au</p>
+                        <p>
+                            <i class="fas fa-phone-square"></i> +64 480986754</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="small">
+                        <br>©2017 Brand, Inc.
+                    </p>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-2 text-right align-self-end">
+                    <p class="small">
+                        <span style="margin-right: 30px">Privacy Policy</span>Terms of Use</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/showSub.js"></script> {{!-- Slider --}}

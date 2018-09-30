@@ -1,0 +1,155 @@
+<nav class="navbar navbar-expand-lg" style="background-color: #0e1111; height:60px">
+    <a class="navbar-brand" href="#">EduFlix</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Movies</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="full-width-image">
+    <div>
+        <a href="/start-learning/:{{this._id}}" class="description">
+            <div class="play-icon-header middle-text">
+                <a href="#">
+                    <i class="far fa-play-circle fa-4x"></i>
+                </a>
+            </div>
+        </a>
+    </div>
+    <div class="header-text">
+        <h2>Avenger Infinity War (2018)</h2>
+        <h4>Duration: </h4>
+        <p></p>
+    </div>
+</div>
+<!-- /full-width-image-2 -->
+
+<div class="top-view">
+    <div class="top-view-box">
+        <h2>
+            <span style="color: #f19827">Top</span> Views</h2>
+        <div>
+            <a href="#">
+                <hr class="line-decor-top-view"> View All
+            </a>
+            {{# each movies }}
+            <div>
+                <div class="list-space row top-view" style="margin-top: 30px">
+                    {{# each this }}
+                    <div class="col-sm-6 col-md-6 movie-container">
+                        <div class="media">
+                            <a href="#" class="pull-left">
+                                <img class="img-thumbnail img-responsive" src={{ this.imagePath }} class="media-object" alt="...">
+                            </a>
+                            <div class="media-body">
+                                <h5 class="movie-text-box description">{{ this.title }}</h5>
+                                <p class="description">Duration: </p>
+                                <div class="clearefix learn">
+                                    <a href="/start-learning/:{{this._id}}" class="btn btn-warning learn description">Learn</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
+
+
+<div class="now-list-box">
+    <h2>
+        <span style="color: #fdc029">Now</span> In EduFlix
+    </h2>
+    <a href="#">
+        <hr class="line-decor-now"> Movies
+        <span style="margin-left: 30px">
+            <a href="#">Series</a>
+        </span>
+        <span style="margin-left: 30px">
+            <a href="#">View All</a>
+        </span>
+    </a>
+</div>
+
+
+<div class="eduflix-list">
+    {{# each movies2 }}
+    <div>
+        <div class="row eduflix-list-box">
+            {{# each this }}
+            <div class="col-sm-3 col-md-3">
+                <img class="img-responsive" src={{ this.imagePath }} alt="...">
+                <h5>{{ this.title }}</h5>
+                <p>Duration: </p>
+                <div class="clearfix">
+                    <a href="/start-learning/{{this._id}}">Learn</a>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+    {{/each}}
+</div>
+
+
+<footer>
+    <div class="container-fluid py-3">
+        <div class="footer-box">
+            <div class="row">
+                <div class="col-md-4 footer-ele-box">
+                    <h4>EDUFLIX</h4>
+                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
+                        1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+                        original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                    </p>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-3 footer-ele-box">
+                    <h4>SERVICES</h4>
+                    <a href="#">Movies</a>
+                    <br>
+                    <br>
+                    <a href="#">Series</a>
+                </div>
+                <div class="col-md-3 footer-ele-box">
+                    <h4>CONTACT US</h4>
+                    <p>
+                        <i class="fas fa-map-marker-alt sna"></i>221 Burwood Hwy, Burwood VIC 3125, Melbourne, Australia</p>
+                    <p>
+                        <i class="far fa-envelope"></i> eduflix@deakin.edu.au</p>
+                    <p>
+                        <i class="fas fa-phone-square"></i> +64 480986754</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="small">
+                    <br>©2017 Brand, Inc.
+                </p>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-2 text-right align-self-end">
+                <p class="small">
+                    <span style="margin-right: 30px">Privacy Policy</span>Terms of Use</p>
+            </div>
+        </div>
+    </div>
+</footer>
